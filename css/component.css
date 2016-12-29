@@ -1,0 +1,100 @@
+body,html {
+	height: 100%;
+}
+.ht-table-wrap {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.ht-table-content {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #c9c9c9;
+	padding-bottom: 100px;
+}
+.ht-table-toolbar {
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	background-color: #f4f4f4;
+	border-bottom: 1px solid #c9c9c9;
+}
+.ht-table-toolbar span {
+	font-size: 14px;
+	padding: 0 8px;
+	cursor: pointer;
+	margin-left: 5px;
+	border-left: 1px solid #c9c9c9;
+}
+.ht-table-toolbar span:hover {
+	color: #149214;
+}
+.ht-table-toolbar span i {
+	color: #149214;
+	margin-right: 4px;
+}
+.ht-table-block {
+	position: relative;
+	overflow-x: auto;
+}
+.ht-table-view {
+	overflow-x: auto;
+	overflow-y: hidden;
+	min-width: 500px;
+}
+.ht-table-head {
+	margin-right: 17px;
+}
+.ht-table-content table {
+	width: 100%;
+	border-collapse: collapse;
+	border-right: 1px solid #c9c9c9;
+}
+.ht-table-body {
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.ht-table-content table td,.ht-table-content table th {
+	height:30px;
+	text-align: center;
+	border-bottom: 1px solid #c9c9c9;
+}
+.ht-table-content table th {
+	background-color: #f4f4f4;
+	padding: 0 5px;
+}
+.ht-table-content table td {
+	word-break:break-word;
+	padding: 0 5px;
+}
+.ht-table-body table tr:hover td {
+	background-color: #FFEEBC;
+}
+.ht-table-footer {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 100%;
+	height: 45px;
+	border-top: 1px solid #eee;
+	background-color: #f4f4f4;
+}
+.ht-table-pagination {
+	position: absolute;
+	right: 20px;
+	top: 10px; 
+}
+.ht-pagination-btn {
+	padding: 5px 10px;
+	margin: 0 10px;
+	border: 1px solid #c9c9c9;
+}
+.ht-pagination-btn:hover {
+	border: 1px solid #2088d2;
+}
+.ht-pagination-input {
+	width: 30px;
+	height: 20px;
+	margin: 0 5px;
+}
